@@ -23,7 +23,7 @@ public class GameManager : MonoBehaviour
     }
     public void SpawnCard()
     {
-    AnAN:
+     TurnP:
         _current = Random.Range(0, cards.Length);
         if (_prev != _current)
         {
@@ -34,7 +34,7 @@ public class GameManager : MonoBehaviour
         }
         else
         {
-            goto AnAN;
+            goto TurnP;
         }
     }
     public void SetSlider()
